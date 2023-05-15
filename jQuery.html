@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script
+    src="https://code.jquery.com/jquery-2.2.4.js" 
+    integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+    crossorigin="anonymous"></script>
+    <script>
+    $(document).ready(function(){
+      $("button").eq(0).click(function(){
+       $("body").css("background","red")
+      })
+      $("button").eq(1).click(function(){
+       $("body").css("background","yellow")
+      })
+      $("button").eq(2).click(function(){
+       $("body").css("background","green")
+      })
+    })
+    </script>
+
+  
+</head>
+<body>
+<div>
+   <button>빨강</button>
+   <button>노랑</button>
+   <button>초록</button>
+</div>
+</body>
+</html>
